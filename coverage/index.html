@@ -14,26 +14,26 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-07T09:07:14-05:00">2018-04-07T09:07:14-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-07T09:57:15-05:00">2018-04-07T09:57:15-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">50.0%</span></span>
+    (<span class="covered_percent"><span class="red">60.0%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="red">
-         0.47
+       <span class="green">
+         1.37
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>3</b> files in total.
-    <b>20</b> relevant lines. 
-    <span class="green"><b>10</b> lines covered</span> and
+    <b>25</b> relevant lines. 
+    <span class="green"><b>15</b> lines covered</span> and
     <span class="red"><b>10</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -51,27 +51,27 @@
     <tbody>
       
       <tr>
-        <td class="strong"><a href="#e06ccaf1a2e8d0c1eb29b491b7f50e7814882a98" class="src_link" title="app.rb">app.rb</a></td>
+        <td class="strong"><a href="#13a634f0175230419859684e959a64edbcd8d01a" class="src_link" title="app.rb">app.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>5</td>
-        <td>2</td>
-        <td>2</td>
+        <td>3</td>
+        <td>3</td>
         <td>0</td>
-        <td>1.0</td>
+        <td>1.7</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#4f6c7b5f65d950f8c75898ec5e2d5277a6bda4ed" class="src_link" title="features/step_definitions/my_steps.rb">features/step_definitions/my_steps.rb</a></td>
+        <td class="strong"><a href="#98771bbcbc14a47e465430ec2d50c816283c32b8" class="src_link" title="features/step_definitions/my_steps.rb">features/step_definitions/my_steps.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>8</td>
+        <td>4</td>
+        <td>4</td>
         <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
+        <td>2.0</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#be4b69a0c7417c44697dd9a6e31f5a6180ed77a8" class="src_link" title="features/step_definitions/template_steps.rb">features/step_definitions/template_steps.rb</a></td>
+        <td class="strong"><a href="#216c09f813688a6bf9675060b65ac0c0d90d4275" class="src_link" title="features/step_definitions/template_steps.rb">features/step_definitions/template_steps.rb</a></td>
         <td class="red strong">44.44 %</td>
         <td>38</td>
         <td>18</td>
@@ -96,13 +96,13 @@
     
       <div class="source_files">
       
-        <div class="source_table" id="e06ccaf1a2e8d0c1eb29b491b7f50e7814882a98">
+        <div class="source_table" id="13a634f0175230419859684e959a64edbcd8d01a">
   <div class="header">
     <h3>app.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>2</b> relevant lines. 
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -128,10 +128,10 @@
           <code class="ruby">get &#39;/&#39; do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="3" data-linenumber="4">
+          <span class="hits">3</span>
           
-          
-          <code class="ruby">    </code>
+          <code class="ruby">   erb :ahorcado</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="5">
@@ -144,13 +144,13 @@
   </pre>
 </div>
       
-        <div class="source_table" id="4f6c7b5f65d950f8c75898ec5e2d5277a6bda4ed">
+        <div class="source_table" id="98771bbcbc14a47e465430ec2d50c816283c32b8">
   <div class="header">
     <h3>features/step_definitions/my_steps.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>0</b> relevant lines. 
-      <span class="green"><b>0</b> lines covered</span> and
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -158,11 +158,59 @@
   <pre>
     <ol>
       
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Dado(/^al abrir la aplicación$/) do</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="2">
+          <span class="hits">3</span>
+          
+          <code class="ruby">  visit &#39;/&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">Entonces(/^debería ver &quot;(.*?)&quot;$/) do |alineacioncentro|</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="6">
+          <span class="hits">3</span>
+          
+          <code class="ruby">  last_response.body.should =~ /#{alineacioncentro}/m</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
     </ol>
   </pre>
 </div>
       
-        <div class="source_table" id="be4b69a0c7417c44697dd9a6e31f5a6180ed77a8">
+        <div class="source_table" id="216c09f813688a6bf9675060b65ac0c0d90d4275">
   <div class="header">
     <h3>features/step_definitions/template_steps.rb</h3>
     <h4><span class="red">44.44 %</span> covered</h4>
