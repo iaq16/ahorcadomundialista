@@ -1,0 +1,57 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/home/kleer/csd/ahorcadoMundialista/ahorcadomundialista/app.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/home/kleer/csd/ahorcadoMundialista/ahorcadomundialista/features/step_definitions/my_steps.rb": [
+
+      ],
+      "/home/kleer/csd/ahorcadoMundialista/ahorcadomundialista/features/step_definitions/template_steps.rb": [
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1523110034
+  }
+}
